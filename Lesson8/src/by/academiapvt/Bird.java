@@ -1,8 +1,8 @@
 package by.academiapvt;
 
 public class Bird extends Animal {
-    String family;
-    String flyHeight;
+    private String family;
+    private String flyHeight;
 
 
     public Bird(String color, int lifeLongMax, String foodType, String family, String flyHeight) {
