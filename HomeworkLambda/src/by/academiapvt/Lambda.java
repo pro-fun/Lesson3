@@ -23,7 +23,7 @@ public class Lambda {
             else {
                 String textCutted = text.substring(5);
                 for (int i =0;i<textCutted.length();i++){
-                    newText = text.charAt(i) + newText;
+                    newText = textCutted.charAt(i) + newText;
                 }
             }
                 return  newText;
