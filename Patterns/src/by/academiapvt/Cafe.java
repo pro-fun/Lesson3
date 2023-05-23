@@ -4,13 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cafe {
-    private int i=0;
+
     private static Cafe cafe;
     private List<CoffeeType> coffees;
 
-    private Cafe(){
-        i++;
-    }
+    private Cafe(){ }
     public static Cafe getInstance(){
         if(cafe==null){
             cafe = new Cafe();
